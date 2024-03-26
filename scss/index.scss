@@ -1,7 +1,28 @@
 $fontfamaly: "Raleway", sans-serif;
 $fontfamalyText:"Oswald", sans-serif;
 
+*::-webkit-scrollbar {
+    width: 5px; /* Ширина всего элемента навигации */
+    background-color: darkslategrey;
+    border-radius: 15px;
+    //opacity: .5;
+    
+    
+  }
 
+  *::-webkit-scrollbar-track {
+     /* Цвет дорожки */
+     border-radius: 5px;
+     background-color: black;
+     opacity: .5;
+    
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: darkslategrey; /* Цвет бегунка */
+    border-radius: 15px; /* Округление бегунка */
+    //border: 3px solid #050c26; /* Оформление границ бегунка */
+  }
 
 
 
@@ -163,8 +184,10 @@ input{
 
 .main_data_info_town{
     display: none;
+    
 .main_data_info_town_item{
     width: 100%;
+    animation: showText 1.3s linear forwards;
     .main_data_info_town_item_ul{
         //padding: 0 20px;
         
