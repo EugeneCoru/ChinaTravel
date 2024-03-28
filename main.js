@@ -1,6 +1,6 @@
 import '/weather';
 
-
+function Main(){
 document.getElementById('date').valueAsDate = new Date();
 
 //Название города на слайдере через некоторое время на сайте
@@ -112,3 +112,4 @@ FEEDBACK_FORM.addEventListener('submit', (e)=>{
 
        sendMessage(feedback);
 });
+}
