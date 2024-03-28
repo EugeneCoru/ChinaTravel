@@ -113,3 +113,4 @@ FEEDBACK_FORM.addEventListener('submit', (e)=>{
        sendMessage(feedback);
 });
 }
+Main();
