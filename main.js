@@ -1,6 +1,6 @@
 import '/weather';
 
-function Main(){
+window.Main = function(){
 document.getElementById('date').valueAsDate = new Date();
 
 //Название города на слайдере через некоторое время на сайте
